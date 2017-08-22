@@ -7,7 +7,90 @@ body {
 [class*="col-"], footer {
   background-color: lightgreen;
   border: 2px solid black;
-  border-radius: 6px;
+  /*border-radius: 6px;*/
   line-height: 40px;
   text-align: center;
+/*  padding-left: 0;
+  padding-right: 0;*/
+  color: #181818;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+.main_image
+{
+  background-color:red;
+  color:white;
+  border:1px black solid;
+  border-bottom:'red 1px solid';
+  padding: 0;
+}
+
+img
+{
+  margin:0;
+  padding:0;
+  border-bottom:'red 1px solid';
+}
+
+h2
+{
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size:42px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+a
+{
+  text-decoration: none;
+  color:inherit;
+}
+
+a:hover
+{
+  text-decoration: underline;
+  color:inherit;
+}
+
+.category
+{
+  color: #FF0500;
+  margin-bottom: 5px;
+}
+
+.large
+{
+  font-size:22px;
+}
+
+.summary
+{
+  font-size: 20px;
+  /*row-height:;*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/*ul
+{
+  margin: 0;
+  list-style-position: inside;
+  list-style-type: square;
+}*/
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding-left: 1em; 
+  text-indent: -.7em;
+  font-size:16px;
+}
+
+li::before {
+  content: "■ ";
+  font-size:1.5em;
+  color: rgb(81,181,249); /* or whatever color you prefer */
 }
