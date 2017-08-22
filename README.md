@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The goal of this app is to replicate the home page of the Newsweek website using Bootstrap :
+http://www.newsweek.com .
 
-Things you may want to cover:
+More about this exercice : 
+https://github.com/TheHackingProject/thp-session-01/tree/master/04_HTML_CSS/semaine_08/08_22_MARDI 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Website deployed on Heroku here : 
+https://ib-newsweek.herokuapp.com/
